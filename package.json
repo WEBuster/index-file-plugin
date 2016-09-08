@@ -1,6 +1,6 @@
 {
   "name": "index-file-webpack-plugin",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A webpack resolver plugin to specify directory index file.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/WEBuster/index-file-webpack-plugin#readme",
   "dependencies": {
+    "object-assign": "^4.1.0",
     "promise": "^7.1.1"
   },
   "devDependencies": {
