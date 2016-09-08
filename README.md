@@ -32,3 +32,24 @@ var webpack = require('webpack')
   ]
 }
 ```
+
+## webpack2 config
+
+```js
+var IndexFilePlugin = require('index-file-webpack-plugin')
+var webpack = require('webpack')
+```
+
+```js
+{
+  resolve: {
+    plugins: [
+      new IndexFilePlugin([
+        '[name].js',  // '[name]' is directory name.
+        'main.js',
+        'index.js'
+      ])
+    ]
+  }
+}
+```
