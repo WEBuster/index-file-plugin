@@ -3,7 +3,7 @@ var rimraf = require('rimraf')
 var webpack = require('webpack')
 var expect = require('chai').expect
 
-describe('index-file-plugin', function () {
+describe('index-file-webpack-plugin', function () {
 
   var IndexFilePlugin = require('../')
   var outputDir = path.resolve(__dirname, './output')

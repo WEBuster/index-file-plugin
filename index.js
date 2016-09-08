@@ -1,1 +1,1 @@
-module.exports = require('./lib/index-file-plugin')
+module.exports = require('./lib/index-file-webpack-plugin')

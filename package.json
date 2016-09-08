@@ -1,6 +1,6 @@
 {
-  "name": "index-file-plugin",
-  "version": "0.1.0",
+  "name": "index-file-webpack-plugin",
+  "version": "0.1.1",
   "description": "A webpack resolver plugin to specify directory index file.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WEBuster/index-file-plugin.git"
+    "url": "git+https://github.com/WEBuster/index-file-webpack-plugin.git"
   },
   "keywords": [
     "index",
@@ -18,9 +18,9 @@
   "author": "MopTym <moptym@163.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/WEBuster/index-file-plugin/issues"
+    "url": "https://github.com/WEBuster/index-file-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/WEBuster/index-file-plugin#readme",
+  "homepage": "https://github.com/WEBuster/index-file-webpack-plugin#readme",
   "dependencies": {
     "promise": "^7.1.1"
   },
